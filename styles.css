@@ -44,6 +44,21 @@ main {
     -ms-overflow-style: none;
 }
 
+button {
+    width: 30%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    font-size: larger;
+    transition: 0.2s ease all;
+}
+
 .ss {
    width: 70%;
    height: auto;
